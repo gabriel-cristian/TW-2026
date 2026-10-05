@@ -1,0 +1,14 @@
+{
+  "name": "tiny-http-server-reference",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/start.js",
+    "test": "node --test tests/*.test.js",
+    "test:baseline": "node --test tests/baseline.test.js",
+    "test:objective": "node --test tests/objective.test.js",
+    "test:regression": "node --test tests/regression.test.js"
+  },
+  "engines": { "node": ">=20" }
+}

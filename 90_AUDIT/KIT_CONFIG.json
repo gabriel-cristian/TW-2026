@@ -1,0 +1,39 @@
+{
+  "kind": "s01_student",
+  "requiredNode": "v24.21.0",
+  "projects": {
+    "p1": {
+      "student": "02_PROJECTS/P01_HTTP_DETECTIVE"
+    },
+    "p2": {
+      "student": "02_PROJECTS/P02_TINY_HTTP_SERVER"
+    }
+  },
+  "initial": {
+    "p1": {
+      "baseline": {
+        "code": 0
+      },
+      "objective": {
+        "code": 1,
+        "failures": 1
+      },
+      "regression": {
+        "code": 0
+      }
+    },
+    "p2": {
+      "baseline": {
+        "code": 0
+      },
+      "objective": {
+        "code": 1,
+        "failures": 2
+      },
+      "regression": {
+        "code": 0
+      }
+    }
+  },
+  "requiredNpm": "11.19.0"
+}

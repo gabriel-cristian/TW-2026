@@ -1,0 +1,1 @@
+Analizează exclusiv patch-ul pentru ruta GET /api/greetings/<name>. Pentru fiecare afirmaţie, indică: observată / inferată / necunoscută, contraexemplul minim, testul relevant şi limita. Nu modifica testele şi nu extinde suprafaţa dincolo de src/application-handler.js.

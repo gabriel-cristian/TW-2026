@@ -1,0 +1,12 @@
+{
+  "object": "S01",
+  "releaseVersion": "v6.0.1 FINAL",
+  "coreContentVersion": "v6.0 didactic core + Node 24 test-reporter hardening",
+  "status": "FINAL_HARDENED_LOCAL_RELEASE",
+  "requiredNode": "v24.21.0",
+  "requiredNpm": "11.19.0",
+  "canonicalTree": "5bfb519fbb6aeb1855d372a747724b742c528c1fee06c1102b06402f8cf40587",
+  "repositoryModified": false,
+  "moodleWorkflow": true,
+  "independentHostileAudit": true
+}

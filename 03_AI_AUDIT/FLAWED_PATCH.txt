@@ -1,0 +1,9 @@
+PATCH DELIBERAT DEFECT
+
+if (url.pathname.includes('/api/greetings/')) {
+  const name = url.pathname.split('/').pop();
+  sendJson(response, 200, { greeting: `Salut, ${name}!` });
+  return true;
+}
+
+Afirmaţie: patch-ul acoperă orice nume, inclusiv spaţii codificate şi nume goale.

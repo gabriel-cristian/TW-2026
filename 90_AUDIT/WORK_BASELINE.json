@@ -1,0 +1,112 @@
+{
+  "allowed": [
+    "02_PROJECTS/P01_HTTP_DETECTIVE/case-report.json",
+    "02_PROJECTS/P02_TINY_HTTP_SERVER/src/application-handler.js"
+  ],
+  "files": [
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/README.md",
+      "sha256": "bd75503f41f217b87a4ab133c7a710f81fe4446de70bcfbe5b0224302716e365"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/case-report.json",
+      "sha256": "d0d20cb21c43896cea797c9604b97b2a15f90846951112c86f5e96eb9f8b993c"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/package-lock.json",
+      "sha256": "1424989299ef98c8f6a4d55b9649612f70e3552679f4dc36c43a1e92184042ae"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/package.json",
+      "sha256": "e484d0424eaaae2479b6aacb8c3b53833a085a9799c1154a2690857b6ec3b8a0"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/public/browser.js",
+      "sha256": "6be753c741d642894fe56f93da0e5eae6a3bdd4921654861120ab271e52ea03d"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/public/detective.css",
+      "sha256": "94d4cfb3b6c2f0008ad96ae7689750fee36a6ea5950eb813884d3ec0a64ecfe0"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/public/index.html",
+      "sha256": "f69d47117f283d6f1800a51344fe27ecf0dee06286900d48d6fa2509368731f5"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/src/server.js",
+      "sha256": "251d371c7d07d0d5b0bc326c5a421ac256a998d6de6c0eb455726e0574216ac4"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/src/start.js",
+      "sha256": "889a9635ef19f09beabfecc3447ec73008fa4ba23022d54127f5af1fa208dab5"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/tests/baseline.test.js",
+      "sha256": "9f8a83b2cb7128754128817430bb047fb307837af66cd8848d61ad75d56550f3"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/tests/helpers.js",
+      "sha256": "455f9f57fe2a4a8f7e0a2b474dc45933f6f289ae195dafd23ebd581ecc5941c9"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/tests/objective.test.js",
+      "sha256": "74b6dd93c53993f048a965f99e04df4a39edd535965614b0c48d4df9fad6d288"
+    },
+    {
+      "path": "02_PROJECTS/P01_HTTP_DETECTIVE/tests/regression.test.js",
+      "sha256": "2c8a5439d9cacd9a658d51602890552317db8cd9f37dcf92153a438d0c782407"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/README.md",
+      "sha256": "f219cb81d3dc5998d13a7a76cdf98c913e7e425257e38c24951dc6d875a18826"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/package-lock.json",
+      "sha256": "21eb539a1fbc0bb3fcc667b9e9dbace27d54ddc73be7f3acb187d85b8d6aaab1"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/package.json",
+      "sha256": "3c9cda8c244dd36603200a4d80a325092fe35d17bd5a0ce66675bc74cdbb5b08"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/public/index.html",
+      "sha256": "1c0514ce519bc5f1dcf3bca2acc33867c47e711f3b6c59076ca56f1c7f7c8352"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/public/site.css",
+      "sha256": "b58e26e2e22dbab9dba6a7ea04b1dcc0111cf33b5c230390663b4d5381b3609c"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/src/application-handler.js",
+      "sha256": "31ccf2576106f2e273d0994e36b24207b8056b9aa9a1ece411e2441eb0dc5842"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/src/http-utils.js",
+      "sha256": "22d4ff6da1cc9fb65afc6a49e889382d0da3574f2121f938ab19e0761c3062b1"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/src/server.js",
+      "sha256": "485f2512f42996a61d080d899909ed2a032e03565a40197293d54989be7f5f09"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/src/start.js",
+      "sha256": "2e35391b31c298172785d38b7910752178352ce17ef44cba50fe70df75bef3bf"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/tests/baseline.test.js",
+      "sha256": "525aa8050461663323de920e3fb571ea8e58d474cf2912ca6f455d53e19301ee"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/tests/helpers.js",
+      "sha256": "3c99347317d78c5115a3297b55bd65ed04ab336b32f257307e129f62c3e09a47"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/tests/objective.test.js",
+      "sha256": "833b9e8bc6df117878ab07204d68afeb4db712092b3b17b186cdb7239c627c92"
+    },
+    {
+      "path": "02_PROJECTS/P02_TINY_HTTP_SERVER/tests/regression.test.js",
+      "sha256": "8221e756947d374f813e17a16b1282c8ffdfcb5a06935141f980df298b0adc1e"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "stylesheet": {
+    "method": "TODO",
+    "pathname": "TODO",
+    "query": { "TODO": "TODO" },
+    "requestMediaType": "TODO",
+    "status": null,
+    "responseMediaType": "TODO",
+    "bodyRepresentation": "TODO"
+  },
+  "clues": {
+    "method": "TODO",
+    "pathname": "TODO",
+    "query": { "TODO": "TODO" },
+    "requestMediaType": "TODO",
+    "status": null,
+    "responseMediaType": "TODO",
+    "bodyRepresentation": "TODO",
+    "xCaseId": "TODO"
+  },
+  "verdict": {
+    "method": "TODO",
+    "pathname": "TODO",
+    "query": { "TODO": "TODO" },
+    "requestMediaType": "TODO",
+    "status": null,
+    "responseMediaType": "TODO",
+    "bodyRepresentation": "TODO",
+    "location": "TODO"
+  }
+}

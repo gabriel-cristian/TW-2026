@@ -1,0 +1,15 @@
+{
+  "object": "S01",
+  "releaseVersion": "v6.0.1 FINAL",
+  "date": "2026-09-27",
+  "auditMode": "independent hostile fail-closed hardening",
+  "changes": [
+    "Forced Node test runner TAP output so expected-failure counting is stable on Node 24.",
+    "Verified exact Node.js and npm versions in the kit runtime gate.",
+    "Made expected assertion counts explicit for baseline/objective/regression.",
+    "Removed stale references to the v2.0 RC environment kit."
+  ],
+  "canonicalRepositoryModified": false,
+  "requiredNode": "v24.21.0",
+  "requiredNpm": "11.19.0"
+}

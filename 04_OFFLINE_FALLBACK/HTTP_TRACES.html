@@ -1,0 +1,17 @@
+<!doctype html><html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Urme HTTP offline</title><style>body{font-family:Arial,sans-serif;margin:24px;background:#f4f6f7;color:#172026}section{background:white;border:1px solid #c8d2d8;border-radius:14px;padding:18px;margin:16px 0}pre{background:#10212b;color:white;padding:14px;border-radius:10px;white-space:pre-wrap}button{padding:8px 12px;border-radius:8px;border:1px solid #789;background:white}.answer{display:none;background:#e7f5ef;padding:10px;margin-top:8px;border-radius:8px}.answer.show{display:block}</style></head><body><h1>Fallback offline — trei schimburi HTTP</h1><p>Aceste urme înlocuiesc numai demonstraţia live. Ele nu sunt dovezi ale calculatorului studentului.</p><section><h2>1. Stylesheet</h2><pre>GET /assets/detective.css HTTP/1.1
+
+HTTP/1.1 200 OK
+Content-Type: text/css; charset=utf-8</pre></section><section><h2>2. Clues</h2><pre>GET /api/clues?case=jar-7 HTTP/1.1
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+X-Case-Id: jar-7
+
+{"caseId":"jar-7","clues":["crumbs","open jar"]}</pre></section><section><h2>3. Verdict</h2><pre>POST /api/verdicts HTTP/1.1
+Content-Type: application/json
+
+{"suspect":"cat"}
+
+HTTP/1.1 201 Created
+Location: /api/verdicts/verdict-1
+Content-Type: application/json; charset=utf-8</pre></section><script>document.querySelectorAll('button').forEach(b=>b.onclick=()=>document.getElementById(b.dataset.target).classList.toggle('show'))</script></body></html>

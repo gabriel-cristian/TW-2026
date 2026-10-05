@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Server HTTP minimal</title>
+    <link rel="stylesheet" href="/assets/site.css">
+  </head>
+  <body>
+    <main>
+      <h1>Server HTTP minimal</h1>
+      <p>
+        Aceasta pagina este servita dintr-un fisier de pe disc. Rutele API de
+        mai jos sunt tratate separat de serverul Node.
+      </p>
+      <ul>
+        <li><code>GET /api/greetings?name=Ada</code> citeste o valoare din query.</li>
+        <li><code>GET /api/greetings/Ada</code> citeste un segment de cale.</li>
+        <li><code>POST /api/echo</code> citeste un corp JSON.</li>
+      </ul>
+    </main>
+  </body>
+</html>
